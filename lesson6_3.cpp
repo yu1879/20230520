@@ -5,6 +5,7 @@ using namespace std;
 
 int main(int args, char **argv) {
     fstream fs("hello.txt",ios::in);
+
 //fs.open("hello.txt");
 //cout<<fs.is_open()<<endl;
     char *p=new char[100];
