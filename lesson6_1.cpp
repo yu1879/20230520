@@ -16,7 +16,7 @@ int main(int args, char **argv) {
     for(int m=0;m<person;m++){
         p[m].id=9001+m;
         cout<<"請輸入第"<<m+1<<"位同學姓名:" <<endl;
-        cout<<"請輸入第"<<m+1<<"位同學的姓名:" <<endl;
+       // cout<<"請輸入第"<<m+1<<"位同學的姓名:" <<endl;
         cin>>p[m].name;
 
         cout<<"請輸入第"<<m+1<<"位同學的國文成績:" <<endl;
